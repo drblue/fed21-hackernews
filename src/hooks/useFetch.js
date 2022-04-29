@@ -42,7 +42,7 @@ const useFetch = (initialUrl = null) => {
 		}
 
 		getData()
-	}, [getData, url])
+	}, [url])
 
 	return {
 		data,
